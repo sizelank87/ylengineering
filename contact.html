@@ -13,27 +13,30 @@
 
     header {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column; /* ⬅️ 세로 정렬로 변경 */
       align-items: center;
-      padding: 10px 150px;
-      background-color: white; /* 아주 연한 회색 */
-      color: black; /* 텍스트는 어두운 회색이나 검정 */
-
+      padding: 20px 0;
+      background-color: white;
+      color: black;
     }
 
     .logo img {
       height: 150px;
     }
 
+    nav {
+      margin-top: 10px;
+    }
+
     nav a {
-      color: white;
+      color: black;
       text-decoration: none;
-      margin-left: 25px;
+      margin: 0 10px;
       font-weight: bold;
     }
 
     nav a:hover {
-      border-bottom: 2px solid white;
+      border-bottom: 2px solid black;
     }
 
     main {
@@ -49,14 +52,13 @@
       <img src="mainlogo.png" alt="YL 로고" />
     </div>
     <nav>
-  <a href="index.html" style="color:black; margin:10px;">홈</a>
-  <a href="about.html" style="color:black; margin:10px;">회사소개</a>
-  <a href="services.html" style="color:black; margin:10px;">사업영역</a>
-  <a href="projects.html" style="color:black; margin:10px;">포트폴리오</a>
-  <a href="contact.html" style="color:black; margin:10px;">연락처</a>
+      <a href="index.html">홈</a>
+      <a href="about.html">회사소개</a>
+      <a href="services.html">사업영역</a>
+      <a href="projects.html">포트폴리오</a>
+      <a href="contact.html">연락처</a>
     </nav>
   </header>
-
 
   <main>
     <h1>연락처</h1><p>이메일: contact@ylengineering.co.kr<br>전화: 00-0000-0000</p>
