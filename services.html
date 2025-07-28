@@ -3,32 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Services</title>
+  <title>YL Engineering</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5dc;
-      color: #333;
       margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
     }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 150px;
+      background-color: white; /* 아주 연한 회색 */
+      color: black; /* 텍스트는 어두운 회색이나 검정 */
+
+    }
+
+    .logo img {
+      height: 150px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      border-bottom: 2px solid white;
+    }
+
     main {
-      padding: 60px 20px;
       text-align: center;
+      padding: 80px 20px;
     }
   </style>
 </head>
 <body>
-   <!-- 로고: 가운데 정렬, 메뉴 위에 배치 -->
-  <div style="text-align:center; padding: 20px 0;">
-    <img src="https://github.com/sizelank87/ylengineering/blob/main/mainlogo.png?raw=true" alt="YL 로고" width="300">
-  </div>  
-<nav style="background:#002244; padding:10px; text-align:center;">
-  <a href="index.html" style="color:white; margin:10px;">홈</a>
-  <a href="about.html" style="color:white; margin:10px;">회사소개</a>
-  <a href="services.html" style="color:white; margin:10px;">사업영역</a>
-  <a href="projects.html" style="color:white; margin:10px;">포트폴리오</a>
-  <a href="contact.html" style="color:white; margin:10px;">연락처</a>
-</nav>
+
+  <header>
+    <div class="logo">
+      <img src="mainlogo.png" alt="YL 로고" />
+    </div>
+    <nav>
+  <a href="index.html" style="color:black; margin:10px;">홈</a>
+  <a href="about.html" style="color:black; margin:10px;">회사소개</a>
+  <a href="services.html" style="color:black; margin:10px;">사업영역</a>
+  <a href="projects.html" style="color:black; margin:10px;">포트폴리오</a>
+  <a href="contact.html" style="color:black; margin:10px;">연락처</a>
+    </nav>
+  </header>
+
 
   <main>
     <h1>사업영역</h1><p>에너지 시스템 설계, 제어장치 개발, 친환경 발전 기술</p>
